@@ -1,1 +1,1 @@
-# myhomework
+This is me studying CS
