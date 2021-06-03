@@ -8,7 +8,14 @@ int main(){
 
 std::cin >> n;
 
-std::cout << mp::fibonachi(n);
+std::cout << mp::fibonachi(n) << '\n';
+
+int a = 4;
+int b = 4;
+
+mp::testpointers(a, b);
+
+std::cout << a << '\n' << b << '\n';
 
 return 0;
 }

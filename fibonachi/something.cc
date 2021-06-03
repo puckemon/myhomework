@@ -9,3 +9,8 @@ long long mp::fibonachi(long long n) {
 	}
 	return mp::fibonachi(n - 1) + mp::fibonachi(n - 2);
 }
+void mp::testpointers(int& k, int i) {
+	i++;
+	k++;
+	std::cout << k <<'\n'  << i<<'\n';
+}
